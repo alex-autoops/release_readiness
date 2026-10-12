@@ -1,0 +1,13 @@
+{ 
+ "accepted_plan": {
+    "replicas": 4,
+    "batch_size": 1,
+    "minimum_healthy": 3,
+    "health_check_passed": true,
+    "proceed": true,
+    "expected_endpoint": "https://api.example.valid",
+    "sdk_endpoint": "https://api.example.valid",
+    "verify_tls": true,
+    "role": "deployment_only",
+    "credential_source": "short_lived_identity"
+  }
